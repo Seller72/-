@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Башагрохим — дезинфекция, дезинсекция, дератизация в Уфе</title>
+<meta name="description" content="Дезинфекция, дезинсекция и дератизация в Уфе и по всей Башкирии. Круглосуточно по предварительной записи.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--g:#0b5d3f;--g2:#0f7a52;--lime:#3cc47c;--mint:#eaf7f0;--mint2:#d6efe2;--ink:#14231c;--muted:#5d6e66;--line:#dde9e2;--bg:#f7fbf9;--warn:#f2a20c;--r:18px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Manrope,system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+h1,h2,h3{line-height:1.15;letter-spacing:-.01em}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:14px;padding:14px 22px;font:700 16px Manrope,sans-serif;cursor:pointer;text-decoration:none;transition:transform .15s,background .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn-main{background:var(--lime);color:#06331f}
+.btn-main:hover{background:#4fd18b}
+.btn-wa{background:#25d366;color:#fff}
+.btn-line{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.4)}
+.btn-dark{background:var(--g);color:#fff}
+.sec{padding:76px 0}
+.sec h2{font-size:clamp(28px,4vw,40px);font-weight:800;margin-bottom:12px}
+.lead{color:var(--muted);font-size:17px;max-width:680px}
+.eyebrow{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--g2);margin-bottom:10px}
+.ic{width:24px;height:24px;flex:none}
+
+.topbar{background:var(--g);color:#cfeedd;font-size:13px}
+.topbar .wrap{display:flex;gap:18px;justify-content:space-between;padding-top:8px;padding-bottom:8px;flex-wrap:wrap}
+.topbar b{color:#fff;font-weight:600}
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.hd{display:flex;align-items:center;gap:22px;height:70px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.logo svg{width:40px;height:40px;flex:none}
+.logo b{display:block;font-size:20px;font-weight:800;color:var(--g)}
+.logo small{display:block;font-size:11.5px;color:var(--muted);font-weight:600;line-height:1.2}
+nav{display:flex;gap:20px;margin-left:auto}
+nav a{text-decoration:none;font-size:15px;font-weight:600;color:#33453c}
+nav a:hover{color:var(--g2)}
+.hd-call{text-decoration:none;font-weight:800;font-size:17px;white-space:nowrap;color:var(--g)}
+.hd-call small{display:block;font-size:11.5px;color:var(--muted);font-weight:600}
+
+.hero{background:radial-gradient(900px 420px at 85% 0,#16855a 0,transparent 60%),linear-gradient(160deg,#08452f,#0b5d3f 60%,#0e6c49);color:#fff;padding:64px 0 76px;overflow:hidden;position:relative}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:46px;align-items:center}
+.hero .tag{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);padding:7px 14px;border-radius:999px;font-size:14px;font-weight:600;margin-bottom:20px}
+.hero h1{font-size:clamp(34px,5vw,56px);font-weight:800;margin-bottom:18px}
+.hero h1 span{color:#8ff0b9}
+.hero p{font-size:18px;color:#d3efe1;max-width:560px;margin-bottom:26px}
+.hero-btns{display:flex;flex-wrap:wrap;gap:12px}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:30px;max-width:560px}
+.fact{display:flex;gap:10px;align-items:flex-start;font-size:14.5px;color:#e4f6ec;font-weight:500}
+.fact svg{color:#8ff0b9;width:20px;height:20px;flex:none;margin-top:1px}
+.hero-card{background:#fff;color:var(--ink);border-radius:22px;padding:26px;box-shadow:0 30px 60px rgba(0,0,0,.25)}
+.hero-card h3{font-size:20px;font-weight:800;margin-bottom:4px}
+.hero-card .sub{color:var(--muted);font-size:14px;margin-bottom:16px}
+.pests{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.pest{border:1.5px solid var(--line);background:var(--bg);border-radius:14px;padding:12px 6px;text-align:center;cursor:pointer;font:600 13px Manrope,sans-serif;color:var(--ink);transition:.15s}
+.pest span{display:block;font-size:24px;margin-bottom:4px}
+.pest:hover{border-color:var(--lime);background:var(--mint)}
+.hero-card .from{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);font-size:14px;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+.hero-card .from b{font-size:22px;color:var(--g);font-weight:800}
+.stars{color:var(--warn);letter-spacing:1px}
+
+/* services */
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px}
+.svc{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;scroll-margin-top:90px;transition:box-shadow .2s,border-color .2s}
+.svc.hl{border-color:var(--lime);box-shadow:0 0 0 4px rgba(60,196,124,.2)}
+.svc .top{display:flex;gap:12px;align-items:center;margin-bottom:10px}
+.svc .em{width:48px;height:48px;border-radius:14px;background:var(--mint);display:grid;place-items:center;font-size:26px;flex:none}
+.svc h3{font-size:18px;font-weight:800}
+.svc p{color:var(--muted);font-size:14.5px;flex:1}
+.svc details{margin-top:10px;font-size:14px;color:#3d4e46}
+.svc summary{cursor:pointer;color:var(--g2);font-weight:700;list-style:none}
+.svc summary::-webkit-details-marker{display:none}
+.svc summary::after{content:" ↓"}
+.svc details[open] summary::after{content:" ↑"}
+.svc details div{margin-top:8px;white-space:pre-line}
+.svc .bottom{display:flex;justify-content:space-between;align-items:center;margin-top:16px;padding-top:14px;border-top:1px solid var(--line);gap:10px}
+.svc .price{font-weight:800;font-size:20px;color:var(--g)}
+.svc .order{font:700 14px Manrope,sans-serif;background:var(--mint);color:var(--g);border:0;border-radius:10px;padding:9px 14px;cursor:pointer;text-decoration:none}
+.svc .order:hover{background:var(--mint2)}
+.note{font-size:13px;color:var(--muted);margin-top:18px}
+
+/* extras + goods */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:36px}
+.box{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.box h3{font-size:19px;font-weight:800;padding:18px 22px;border-bottom:1px solid var(--line);background:var(--mint)}
+.row{display:flex;justify-content:space-between;gap:14px;padding:14px 22px;border-bottom:1px solid var(--line);font-size:15px}
+.row:last-child{border-bottom:0}
+.row small{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+.row b{white-space:nowrap;color:var(--g);font-weight:800}
+
+/* why */
+.why{background:#fff}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px}
+.w{border:1px solid var(--line);border-radius:var(--r);padding:22px;background:var(--bg)}
+.w .em{font-size:28px}
+.w h3{font-size:17px;font-weight:800;margin:10px 0 6px}
+.w p{font-size:14.5px;color:var(--muted)}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:36px;counter-reset:s}
+.st{position:relative;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:24px 20px 20px}
+.st::before{counter-increment:s;content:counter(s);width:34px;height:34px;border-radius:50%;background:var(--g);color:#fff;font-weight:800;display:grid;place-items:center;margin-bottom:12px}
+.st h3{font-size:17px;font-weight:800;margin-bottom:6px}
+.st p{font-size:14.5px;color:var(--muted)}
+
+/* reviews */
+.rv-head{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.score{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:14px 20px}
+.score b{font-size:38px;font-weight:800;color:var(--g)}
+.score small{display:block;color:var(--muted);font-size:13px}
+.rv-grid{columns:3 300px;column-gap:16px;margin-top:22px}
+.rv{break-inside:avoid;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:20px;margin-bottom:16px}
+.rv .t{font-size:12px;font-weight:700;color:var(--g2);background:var(--mint);display:inline-block;padding:3px 10px;border-radius:999px}
+.rv p{margin:8px 0 12px;font-size:15px;white-space:pre-line}
+.rv .rs{color:var(--warn);letter-spacing:1px;font-size:15px}
+.rv .rs i{font-style:normal;color:#d5ddd9}
+.rv.neg{border-color:#f1d6cf;background:#fffaf8}
+.rv .ans{margin-top:14px;padding:12px 14px;border-radius:12px;background:var(--mint);font-size:14px}
+.rv .ans b{display:block;font-size:12.5px;color:var(--g2);margin-bottom:4px}
+.rv-stats{display:grid;gap:6px;max-width:420px;margin-top:26px;font-size:14px}
+.rv-stats .bar{display:grid;grid-template-columns:34px 1fr 30px;gap:10px;align-items:center}
+.rv-stats .tr{height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.rv-stats .tr span{display:block;height:100%;background:var(--warn);border-radius:99px}
+.rv-stats small{color:var(--muted);font-size:12.5px;margin-top:4px}
+.rv-tabs{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.rv-tabs button{border:1.5px solid var(--line);background:#fff;border-radius:999px;padding:8px 16px;font:600 14px Manrope,sans-serif;cursor:pointer;color:var(--ink)}
+.rv-tabs button.on{background:var(--g);border-color:var(--g);color:#fff}
+.rv .who{font-size:14px;font-weight:700}
+.rv .who small{color:var(--muted);font-weight:500}
+
+/* form + contacts */
+.order-sec{background:linear-gradient(160deg,#08452f,#0b5d3f);color:#fff}
+.order-sec .lead{color:#cde9da}
+.order-sec .eyebrow{color:#8ff0b9}
+.of-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;margin-top:34px;align-items:start}
+.form{background:#fff;color:var(--ink);border-radius:22px;padding:26px}
+.form label{display:block;font-size:13px;font-weight:700;color:#3d4e46;margin:14px 0 6px}
+.form label:first-child{margin-top:0}
+.form input,.form select,.form textarea{width:100%;padding:13px 14px;border-radius:12px;border:1.5px solid var(--line);font:15px Manrope,sans-serif;background:var(--bg);color:var(--ink)}
+.form textarea{resize:vertical;min-height:70px}
+.form .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form .btn{width:100%;margin-top:18px}
+.form .fine{font-size:12.5px;color:var(--muted);margin-top:10px}
+.ct{display:grid;gap:12px}
+.ct-item{display:flex;gap:14px;align-items:flex-start;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:16px 18px}
+.ct-item .em{font-size:22px;flex:none}
+.ct-item small{display:block;color:#a9d6bf;font-size:12.5px;font-weight:600}
+.ct-item a{text-decoration:none;font-weight:700}
+.ct-item div{font-size:15px}
+.soc{display:flex;flex-wrap:wrap;gap:8px}
+.soc a{padding:9px 14px;border-radius:10px;background:rgba(255,255,255,.12);text-decoration:none;font-size:14px;font-weight:600}
+
+footer{background:#06291c;color:#9cc2ae;padding:28px 0;font-size:13.5px}
+.ft{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.fab{position:fixed;right:16px;bottom:16px;z-index:60;display:none;gap:10px}
+.fab a{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.25);text-decoration:none;font-size:24px}
+.fab .c{background:var(--lime)}
+.fab .w{background:#25d366}
+.fab svg{width:28px;height:28px;fill:#fff}
+
+@media(max-width:980px){
+ nav{display:none}
+ .hero-grid,.two,.of-grid{grid-template-columns:1fr}
+ .svc-grid,.why-grid{grid-template-columns:1fr 1fr}
+ .steps{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+ .wrap{padding:0 16px}
+ .sec{padding:54px 0}
+ .hero{padding:40px 0 54px}
+ .hd{gap:10px;height:62px}
+ .logo small{display:none}
+ .hd-call{margin-left:auto;font-size:15px;text-align:right}
+ .svc-grid,.why-grid,.steps,.facts{grid-template-columns:1fr}
+ .hero-btns .btn{flex:1 1 100%}
+ .form .grid2{grid-template-columns:1fr}
+ .form,.hero-card{padding:20px 16px}
+ .fab{display:flex}
+ .topbar .wrap{justify-content:center;text-align:center}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="wrap"><span><b>Круглосуточно</b>, по предварительной записи</span><span>Уфа и вся Башкирия</span></div></div>
+
+<header>
+ <div class="wrap hd">
+  <a class="logo" href="#top">
+   <svg viewBox="0 0 48 48" fill="none"><path d="M24 4l16 6v12c0 10-7 18-16 22C15 40 8 32 8 22V10l16-6z" fill="#0b5d3f"/><path d="M24 9l11 4v9c0 7.5-4.8 13.6-11 16.6C17.8 35.6 13 29.5 13 22v-9l11-4z" fill="#3cc47c"/><path d="M18.5 24l4 4 7.5-8" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+   <span><b id="cName"></b><small id="cSub"></small></span>
+  </a>
+  <nav>
+   <a href="#services">Услуги и цены</a>
+   <a href="#goods">Препараты</a>
+   <a href="#why">Почему мы</a>
+   <a href="#reviews">Отзывы</a>
+   <a href="#order">Контакты</a>
+  </nav>
+  <a class="hd-call" id="hdCall" href="#"></a>
+ </div>
+</header>
+
+<section class="hero" id="top">
+ <div class="wrap hero-grid">
+  <div>
+   <div class="tag"><span class="stars">★</span><span id="heroRating"></span></div>
+   <h1>Избавим от <span>грызунов, насекомых</span> и неприятных запахов</h1>
+   <p>Дезинфекция, дезинсекция и дератизация в Уфе и по всей Башкирии. Сертифицированные препараты, профессиональное оборудование, договор и гарантия.</p>
+   <div class="hero-btns">
+    <a class="btn btn-main" id="heroCall" href="#">Позвонить</a>
+    <a class="btn btn-line" id="heroWa" href="#" target="_blank" rel="noopener">Написать в WhatsApp</a>
+   </div>
+   <div class="facts" id="facts"></div>
+  </div>
+  <div class="hero-card">
+   <h3>Кто вас беспокоит?</h3>
+   <div class="sub">Нажмите, чтобы увидеть услугу и цену</div>
+   <div class="pests" id="pests"></div>
+   <div class="from"><span>Обработка помещения</span><span>от <b id="minPrice"></b></span></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec" id="services">
+ <div class="wrap">
+  <span class="eyebrow">Услуги и цены</span>
+  <h2>Что мы делаем</h2>
+  <p class="lead">Точная стоимость зависит от площади и объекта. Назовём её на бесплатной консультации по телефону.</p>
+  <div class="svc-grid" id="svcGrid"></div>
+  <p class="note" id="priceNote"></p>
+ </div>
+</section>
+
+<section class="sec" id="goods" style="padding-top:0">
+ <div class="wrap">
+  <span class="eyebrow">Дополнительно</span>
+  <h2>Выезд, подготовка и препараты</h2>
+  <p class="lead" id="goodsLead"></p>
+  <div class="two">
+   <div class="box"><h3>Дополнительные услуги и выезд</h3><div id="extras"></div></div>
+   <div class="box"><h3>Препараты в продаже</h3><div id="goodsList"></div></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec why" id="why">
+ <div class="wrap">
+  <span class="eyebrow">Почему мы</span>
+  <h2>Работаем официально и с гарантией</h2>
+  <div class="why-grid" id="whyGrid"></div>
+ </div>
+</section>
+
+<section class="sec" id="how">
+ <div class="wrap">
+  <span class="eyebrow">Как проходит обработка</span>
+  <h2>Четыре простых шага</h2>
+  <div class="steps" id="steps"></div>
+ </div>
+</section>
+
+<section class="sec" id="reviews" style="background:#fff">
+ <div class="wrap">
+  <div class="rv-head">
+   <div><span class="eyebrow">Отзывы</span><h2>Что говорят клиенты</h2></div>
+   <div class="score"><b id="rScore"></b><div><div class="stars">★★★★☆</div><small id="rCount"></small></div></div>
+  </div>
+  <div class="rv-stats" id="rvStats"></div>
+  <div class="rv-tabs" id="rvTabs"></div>
+  <div class="rv-grid" id="rvGrid"></div>
+  <div style="text-align:center;margin-top:8px"><a class="btn btn-dark" id="allRev" href="#" target="_blank" rel="noopener">Все отзывы в 2ГИС →</a></div>
+ </div>
+</section>
+
+<section class="sec order-sec" id="order">
+ <div class="wrap">
+  <span class="eyebrow">Заявка</span>
+  <h2>Оставьте заявку или позвоните</h2>
+  <p class="lead">Консультация бесплатно. Заявка сразу уйдёт в WhatsApp, мы ответим и согласуем время.</p>
+  <div class="of-grid">
+   <form class="form" id="form">
+    <label for="fPest">Что нужно сделать</label>
+    <select id="fPest"></select>
+    <div class="grid2">
+     <div><label for="fObj">Объект</label><select id="fObj"></select></div>
+     <div><label for="fArea">Площадь, м² (если знаете)</label><input id="fArea" inputmode="numeric" placeholder="Например, 45"></div>
+    </div>
+    <label for="fPlace">Город или район</label>
+    <input id="fPlace" placeholder="Например, Уфа, Сипайлово">
+    <div class="grid2">
+     <div><label for="fName">Имя</label><input id="fName" placeholder="Как к вам обращаться" autocomplete="given-name"></div>
+     <div><label for="fWhen">Удобное время</label><input id="fWhen" placeholder="Например, завтра после 18:00"></div>
+    </div>
+    <label for="fMsg">Комментарий</label>
+    <textarea id="fMsg" placeholder="Опишите проблему"></textarea>
+    <button class="btn btn-wa" type="submit">Отправить в WhatsApp</button>
+    <div class="fine">Нажимая кнопку, вы откроете WhatsApp с готовым сообщением.</div>
+   </form>
+   <div class="ct" id="ct"></div>
+  </div>
+ </div>
+</section>
+
+<footer><div class="wrap ft"><span id="ftL"></span><span>Информация о ценах не является публичной офертой</span></div></footer>
+
+<div class="fab"><a class="c" id="fabCall" href="#" aria-label="Позвонить">📞</a><a class="w" id="fabWa" href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.3 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 1-2.3.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg></a></div>
+
+<script>
+/* ===== ДАННЫЕ КОМПАНИИ (источники: карточка 2ГИС и группа ВКонтакте) ===== */
+var COMPANY={
+ name:'Башагрохим',
+ brand:'Станция дезинфекции и дератизации РБ',
+ legal:'ООО «Башагрохим»',
+ area:'Уфа и вся Башкирия',
+ phones:['+7 937 782-40-07','+7 937 166-61-02'],
+ whatsapp:'79377824007',
+ telegram:'https://t.me/+79377824007',
+ vk:'https://vk.com/dezinfekciya102',
+ email:'uralrb69@gmail.com',
+ hours:'Круглосуточно, по предварительной записи',
+ rating:'4.4', ratingCount:59, reviewCount:55,
+ gis:'https://2gis.ru/ufa/firm/70000001038671293',
+ payment:'Картой, наличными, через банк',
+ pricesUpdated:'22 февраля 2026',
+ freeTrip:'Бесплатный выезд при заказе услуги дезинфекции по всей Башкирии. Подробности по телефону.',
+ services:[
+  {id:'rats',em:'🐀',title:'Дератизация',pest:'Мыши и крысы',price:3500,
+   short:'Уничтожение мышей и крыс. Приманку специалист готовит прямо на месте, магазинные яды не используем.',
+   more:'Комплекс мероприятий по уничтожению грызунов. Используем химический, механический и звуковой методы, сертифицированные препараты и оборудование. Для каждого объекта составляем индивидуальный план с учётом территории и количества грызунов.\nПриманку специалист изготавливает прямо на месте, подбирая состав.\nПосле обработки дадим рекомендации, как защитить дом, склад или участок от повторного появления грызунов.\nВ будние дни выезжаем в течение 1 часа. Время обработки — от 30 минут до 1 часа в зависимости от площади. После обработки помещением можно пользоваться в полном объёме.'},
+  {id:'dez',em:'🦠',title:'Дезинфекция помещений и сооружений',pest:'Вирусы, бактерии, плесень',price:3500,
+   short:'Противовирусная и антибактериальная обработка квартир, домов, дач, офисов, магазинов, складов, цехов и автомобилей.',
+   more:'Обрабатываем помещения и сооружения любого типа: квартиры, дома, дачи; офисы, магазины, склады; производственные цеха и автомобили.\nПроводим полную противовирусную и антибактериальную обработку.\nНейтрализуем запахи сырости, гари, табака, после животных или умерших.\nОбработка холодным и горячим туманом: средство проникает во все щели и поры.\nПрепараты сертифицированы и безопасны для людей, животных и имущества.'},
+  {id:'cock',em:'🪳',title:'Уничтожение тараканов',pest:'Тараканы',price:2900,
+   short:'Поэтапно: осмотр, подготовка, обработка и профилактика повторного появления. В квартирах и офисах.',
+   more:'Процедура включает осмотр помещения для выявления очагов, подготовку к обработке, саму дезинсекцию и профилактические мероприятия против повторного появления тараканов.\nИспользуем проверенные сертифицированные средства. При соблюдении мер безопасности (проветривание и генеральная уборка) они безвредны для человека и животных.\nОбрабатываем и офисы: выявим участки, где обустроились насекомые, и проведём профилактическую обработку всех помещений.\nСтоимость зависит от площади помещения и интерьера.'},
+  {id:'bugs',em:'🛏️',title:'Уничтожение клопов',pest:'Клопы',price:2900,
+   short:'Обработка всех поверхностей, стен, мебели и спальных мест. В квартирах, частных домах и коттеджах. С гарантией.',
+   more:'Обрабатываем все поверхности, стены, мебель и особенно спальные места.\nСредства предупреждают появление новых клопов, которые перебираются из квартир по вентиляционным шахтам, щелям между панелями и воздуховодам.\nВ частных домах и коттеджах работаем по такой же схеме, учитывая особенности каждого помещения.\nДаём гарантию на работу и результат. Стоимость зависит от площади помещения и интерьера.'},
+  {id:'flea',em:'🐕',title:'Уничтожение блох',pest:'Блохи',price:2900,
+   short:'Препараты допущены к применению по всей России и не имеют запаха. Договор и годовая гарантия.',
+   more:'Все препараты протестированы и допущены к применению на территории РФ. Они не вызывают аллергии, не влияют на здоровье людей и домашних питомцев и не имеют запаха: уже через пару часов можно спокойно находиться в квартире.\nСпециалисты имеют при себе все документы, заключают договор и предоставляют годовую гарантию.\nКонцентрат препарата — в заводской упаковке.'},
+  {id:'ants',em:'🐜',title:'Уничтожение муравьёв',pest:'Муравьи',price:2900,
+   short:'Домовые и садовые муравьи. Обрабатываем пути передвижения и муравейники. Гарантия 1 год.',
+   more:'Справляемся с домовыми и садовыми муравьями: обрабатываем все пути передвижения насекомых и муравейники.\nСначала осматриваем помещение, находим скопления и пути передвижения, затем обрабатываем. Чаще всего это кухня, стояки водопровода, санузел, вентиляция.\nПеред приездом специалиста уберите посуду, продукты и гигиенические принадлежности. После обработки некоторое время не делайте влажную уборку там, где распыляли средство.\nГарантия на дезинсекционные работы — 1 год. Стоимость зависит от площади помещения и интерьера.'},
+  {id:'wasp',em:'🐝',title:'Уничтожение ос',pest:'Осы',price:2900,
+   short:'В помещениях и на открытой территории, в том числе на даче. Для частных и юридических лиц.',
+   more:'Уничтожаем ос в помещениях и на открытой территории, в том числе на дачах. Работаем с частными и юридическими лицами.\nИспользуем современные препараты и аэрозольные распылители.'},
+  {id:'mosq',em:'🦟',title:'Уничтожение комаров',pest:'Комары',price:2900,
+   short:'На участке, в саду, в квартире и загородном доме. Обработка занимает от 2 до 4 часов.',
+   more:'Работаем на открытой территории (дачный участок, сад) и на закрытых объектах (квартира, загородный дом).\nЭтапы: обследование участка и мест скопления комаров, определение причины, выбор препарата, санитарная обработка.\nПрепараты действуют не только на взрослых особей, но и на личинки. Покидать жилище и перевозить вещи не нужно.\nОбработка занимает от 2 до 4 часов в зависимости от площади. После работ помещение нужно проветрить. Рекомендуем повторную обработку, чтобы закрепить результат.'},
+  {id:'ticks',em:'🕷️',title:'Уничтожение клещей',pest:'Клещи',price:3500,
+   short:'Современные сертифицированные препараты, которых нет в свободной продаже.',
+   more:'Для борьбы с клещами используем современные препараты, которых нет в свободном доступе. Это сертифицированные средства, не оказывающие вредного воздействия на организм человека и животных.'},
+  {id:'acar',em:'🌳',title:'Акарицидная обработка',pest:'Клещи на участке',price:3500,
+   short:'Обработка садового или дачного участка от иксодовых клещей: трава, деревья и кустарники.',
+   more:'Комплекс мероприятий по уничтожению иксодовых клещей. Это влажная дезинсекция: на всей территории садового или дачного участка средство распыляют на траву, деревья и кустарники, где прячутся клещи.'},
+  {id:'terr',em:'🏡',title:'Обработка территории от всех видов насекомых',pest:'Участок целиком',price:3500,
+   short:'Одна обработка против клещей, комаров, мошек, ос и других насекомых. Генератор холодного тумана. Гарантия.',
+   more:'Состав эффективен против клещей, комаров, мошек, ос и других насекомых.\nИспользуем генератор холодного тумана, который доставляет препарат в самые скрытые места.\nПрименяем только сертифицированные средства, безопасные для людей и животных. Предоставляем официальную гарантию на результат.'},
+  {id:'wood',em:'🪵',title:'Уничтожение жука-древоточца (короеда)',pest:'Короед',price:2900,
+   short:'Фумигация фосфином или обработка химическими препаратами. Индивидуальный поэтапный план.',
+   more:'Методы: фумигация фосфином (наиболее эффективный, выполняется квалифицированными специалистами со спецоборудованием, после — обязательная дегазация) и обработка древесины химическими препаратами — профилактически или против имеющихся вредителей.\nПлан работ: проверка участка и деревянных построек, выбор методики и препаратов, санитарная обработка, дегазация после фосфина, при необходимости — повторная обработка.\nСтоимость зависит от многих факторов, уточняйте по телефону.'},
+  {id:'smell',em:'💨',title:'Уничтожение запаха',pest:'Запахи',price:3500,
+   short:'Запахи гари, табака, после болезни, животных, «синдрома Плюшкина», трупный запах. В квартирах, офисах и автомобилях.',
+   more:'Устраняем запахи в квартирах, офисах и салонах автомобилей: после пожара, долгой болезни, животных, табака, перегара, «синдрома Плюшкина», трупный запах, после ремонта или ДТП.\nИспользуем туманогенератор и обработку озонатором — озон быстро окисляет загрязняющие вещества.\nУстранением запахов после пожара занимаемся более пяти лет.\nСтоимость зависит от площади.'}
+ ],
+ extras:[
+  {t:'Изоляция возможных путей миграции вредителей',p:'от 3 500 ₽'},
+  {t:'Организация по подготовке помещения',p:'от 1 000 ₽'},
+  {t:'Выезд после 22:00',p:'1 000 ₽'},
+  {t:'Выезд за пределы города',n:'Километры считаем в одну сторону',p:'10 ₽/км'}
+ ],
+ goods:[
+  {t:'Агран',n:'Для уничтожения тараканов, муравьёв, клопов, блох, мух, комаров, ос, крысиных клещей',p:'1 000 ₽'},
+  {t:'Лямбда зона',n:'От клопов, тараканов, муравьёв, блох, комаров, крысиных клещей, ос',p:'950 ₽'},
+  {t:'Таран',n:'Контактное и кишечное действие',p:'590 ₽'},
+  {t:'Циперметрин',n:'Для уничтожения тараканов, клопов, блох, домовых муравьёв, крысиных клещей, личинок мух и комаров',p:'500 ₽'},
+  {t:'ШТУРМ гранулы, 500 г',n:'Приманка для уничтожения крыс и мышей',p:'270 ₽'}
+ ],
+ objects:['Квартира','Частный дом / дача','Участок','Офис / магазин','Склад / цех','Автомобиль','Подъезд','Другое'],
+ // Распределение оценок среди отзывов в 2ГИС (на 1 ноября 2026)
+ reviewStats:{5:43,4:0,3:1,2:0,1:6},
+ // Отзывы дословно из 2ГИС, без правок. r — оценка, a — официальный ответ компании
+ reviews:[
+  {n:'Александр И.',r:1,d:'18 августа 2022',x:'Отвратительная "конторка". Вызывали два раза, второй раз по гарантии. Травили от клопов и тараканов. Итог: клопы стали бегать днем и ночью, меньше их не стало. А тараканы только размножились и перебрались во все комнаты в квартире. Очень не рекомендую данную "конторку". Ставлю 1 звезду, жаль ноль нельзя поставить.',
+   a:{d:'30 октября 2024',x:'Здравствуйте, Служба качества нашей компании заботится о сервисе наших услуг. Просим Вас предоставить номер и фото договора, чтобы мы могли проверить информацию и разобраться в ситуации.'}},
+  {n:'North Star',r:3,d:'19 октября 2021',x:'В октябре прошлого года вызывала данную фирму для обработки от клопов. Тогда помогло, эффект был, они исчезли. Я рекомендовала знакомым эту организацию. В июле опять клопы появились и я сразу же вызвала эту фирму по гарантии, за 1000 руб. Обработали тем же средством, как в прошлый раз. Клопов стало ещё больше, они бегали уже и днём, везде появлялись, и на кухне, но травить повторно как сказал консультант по телефону можно через месяц только, иначе потом их вообще ничего не возьмёт. Мы с ребенком терпели их укусы в течение месяца. Выждав наконец то месяц, вызвала повторно, опять за 1000 руб. Обработал другой мастер и средство другое на этот раз. Насекомые исчезли сразу, не было их два месяца. Теперь я решила вызвать другую компанию, по отзывам в соцсети, у них и гарантия хоть бесплатная, так как накладно платить по тысяче каждый раз, также дополнительно есть услуга обработка паром спальных мест за 500 руб.',
+   a:{d:'5 января 2022',x:'Здравствуйте Динара! Напишите пожалуйста как обстоят у вас дела на сегодняшний день?'}},
+  {n:'Олег П.',r:1,d:'5 февраля 2021',x:'Обработка от клопов абсолютно не помогла,хотя строго соблюдали их советы не мыть и т.д. и клопов было мало, а стало еще больше ! Обработка по гарантии 1000р.',
+   a:{d:'5 января 2022',x:'Здравствуйте Олег! Напишите пожалуйста как обстоят у вас дела на сегодняшний день?'}},
+  {n:'Вильдан Х.',r:1,d:'18 января 2021',x:'заказал препарат, сказали есть в наличии, ждите доставку. через несколько часов сообщили, что этого препарата нет.',
+   a:{d:'5 января 2022',x:'Здравствуйте Вильдан! Напишите пожалуйста как обстоят у вас дела на сегодняшний день?'}},
+  {n:'Ольга А.',r:1,d:'21 ноября 2020',x:'Вызывали 4 раза на дезинсекцию. И вместе с соседями, и отдельно. Итог: как водой побрызгали, проблема не решена абсолютно. Крайне не рекомендую. Все нюансы не буду описывать, факт в том, что каждый раз просили за свои услуги меньше денег, типа сторговались: то новенький у них работал, то обработали не качественно, ну а надежда на истребление насекомых сыграла свою роль, но как будто делали только хуже. Соседи вызвали др организацию и проблема сразу решилась. Последуем их примеру! Не тратьте на данную организацию время и деньги.',
+   a:{d:'5 января 2022',x:'Здравствуйте Ольга! Напишите пожалуйста как обстоят у вас дела на сегодняшний день?'}},
+  {n:'Александра И.',r:1,d:'15 июля 2020',x:'Отвратительная фирма. Не советую обращаться.\nСегодня 15.07.20 вызвали заранее специалиста для устранения неприятного запаха в квартире после замены канализации.\nСунули договор на одной странице, на обороте акт выполненных работ, потребовали заранее подписать оба документа, при этом второго экземпляра не выдали.\nМама пенсионерка подписала документы, он потребовал денег, тоже заранее. Она отказала. Он развернулся и хотел уйти, еле заставили разорвать документы.\nПри попытке получить номер директора не дал, сказал, что тот за городом и недоступен.\nНашла телефон директора на сайте, объяснила ситуацию. Нам нужна была обработка за 2 часа до прихода специалистов по укладке пола. Директор мне сказал, что ничего страшного нет, что все просят заранее и документы и деньги, ведь их многие обманывают. А то, что они нарушают гражданский кодекс и ущемляют права потребителя их не интересует.\nРебята, не связывайтесь. Лучше ищите другую компанию, которая даст документы и все сделает как вам надо. Если было бы можно поставить 0 звезд, я бы так и сделала.',
+   a:{d:'5 января 2022',x:'Здравствуйте Александра! Напишите пожалуйста как обстоят у вас дела на сегодняшний день? Кстати по поводу той ситуации мастер тогда просто испугался что вы его обманите и не оплатите.'}},
+  {n:'Лиана М.',r:1,d:'28 мая 2020',x:'Приезжали к нам спутник, никакого толка, гарантии не дают и повторно отказались морить. Внесли в блок и отказываются общаться. Не тратьте деньги!',
+   a:{d:'5 января 2022',x:'Здравствуйте Ольга! Напишите пожалуйста как с вами лучше связаться?'}},
+  {n:'Ваня П.',r:5,d:'21 июня 2026',x:'Заказывал дезинфекцию в квартире после ремонта. Специалисты приехали вовремя, провели полную обработку всех поверхностей, включая труднодоступные места. Убедился, что они используют современные средства, безопасные для здоровья. Теперь чувствую себя намного спокойнее, зная, что у нас чистое и безопасное пространство. Спасибо за отличную работу'},
+  {n:'Аида Г.',r:5,d:'29 мая 2025',x:'Вчера сделали опрыскивание участка, плодовых кустарников и деревьев. Все сделали быстро, аппаратура достаточно мощная, бьет струя далеко.\nЕще раз спасибо'},
+  {n:'Татьяна М.',r:5,d:'21 октября 2024',x:'Обрабатывали дом из бревна от короедов в 2021 году. Итог: короедов нет, сейчас 2024 год. Очень рады, что обратились в данную фирму при первых признаках появления короедов. Спасибо, что помогли сохранить дом!!! Всё грамотно, быстро и аккуратно сделали!!!',
+   a:{d:'21 октября 2024',x:'Добрый день! Огромное спасибо за отзыв 😌'}},
+  {n:'Софья Л.',r:5,d:'30 октября 2024',x:'Обработка от тараканов всем подъездом прошла на ура! Мы очень рады, что остановили свой выбор на вашей компании! Сразу отзыв не писала, но прошло 3 месяца и все отлично, тьфу тьфу тьфу.',
+   a:{d:'18 ноября 2024',x:'Софья, здравствуйте. Спасибо вам!'}},
+  {n:'Asya Y.',r:5,d:'14 января 2024',x:'Переехали в новую квартиру и мучались с тараканами… позвонили в данную организацию, мастер пришел сразу и решил проблему)\nВежливый, хороший персонал)\nОчень благодарна данной компании за решение такой проблемы.\nНадеюсь больше не обращусь, но всем другим советую 😅☺️🙏'},
+  {n:'Гузель М.',r:5,d:'13 июня 2023',x:'Обратилась в эту организацию когда появилось очень много тараканов и клопов в квартире. Приехали в четко оговоренное время, провели дезинсекцию и дали последующие рекомендации. После этого насекомые исчезли. Очень квалифицированные и грамотные ребята. Всем рекомендую!!!'},
+  {n:'Anastasia M.',r:5,d:'12 мая 2023',x:'Отличная компания! После затопления квартиры пошла плесень по стенам. Позвонила, уточнила всю информацию, договорились о приезде специалистов, ребята быстро все сделали, почистили и обработали стену! Спасибо большое!'},
+  {n:'Элечка S.',r:5,d:'4 июня 2023',x:'Вызывала их 2 года подряд, обработка от комаров понравилась. Спасибо за помощь. Мы теперь ваши постоянные клиенты!'},
+  {n:'Рушана Г.',r:5,d:'26 октября 2023',x:'Неоднократно обращались в данную компанию, очень качественно выполняют свою работу и по времени не заставили долго ждать. Широкий выбор обработок, что очень радует.Рекомендую'}
+ ]
+};
+/* ===================================================================== */
+
+var C=COMPANY;
+function $(id){return document.getElementById(id)}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function tel(p){return 'tel:+'+p.replace(/\D/g,'')}
+function rub(n){return n.toLocaleString('ru-RU')+' ₽'}
+function wa(t){return 'https://wa.me/'+C.whatsapp+(t?'?text='+encodeURIComponent(t):'')}
+var CHECK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>';
+
+$('cName').textContent=C.name; $('cSub').textContent=C.brand;
+$('hdCall').href=tel(C.phones[0]); $('hdCall').innerHTML=C.phones[0]+'<small>Круглосуточно, по записи</small>';
+$('heroCall').href=$('fabCall').href=tel(C.phones[0]);
+$('heroWa').href=$('fabWa').href=wa('Здравствуйте! Хочу заказать обработку.');
+$('heroRating').textContent=C.rating+' · '+C.ratingCount+' оценок в 2ГИС';
+$('facts').innerHTML=['Круглосуточно, по записи','Выезд ежедневно, без выходных','Договор и гарантия','Бесплатный выезд при заказе дезинфекции по Башкирии*']
+ .map(function(f){return '<div class="fact">'+CHECK+'<span>'+f+'</span></div>'}).join('');
+var minP=Math.min.apply(null,C.services.map(function(s){return s.price}));
+$('minPrice').textContent=rub(minP);
+
+/* быстрый выбор вредителя */
+var quick=['rats','cock','bugs','flea','ants','wasp','mosq','ticks','smell'];
+$('pests').innerHTML=quick.map(function(id){var s=C.services.find(function(x){return x.id===id});return '<button class="pest" type="button" data-go="'+id+'"><span>'+s.em+'</span>'+esc(s.pest)+'</button>'}).join('');
+$('pests').addEventListener('click',function(e){var b=e.target.closest('[data-go]');if(!b)return;var el=$('svc-'+b.dataset.go);el.scrollIntoView({behavior:'smooth',block:'center'});document.querySelectorAll('.svc.hl').forEach(function(x){x.classList.remove('hl')});el.classList.add('hl');setTimeout(function(){el.classList.remove('hl')},2200)});
+
+/* услуги */
+$('svcGrid').innerHTML=C.services.map(function(s){
+ return '<article class="svc" id="svc-'+s.id+'"><div class="top"><div class="em">'+s.em+'</div><h3>'+esc(s.title)+'</h3></div><p>'+esc(s.short)+'</p>'+
+  '<details><summary>Подробнее</summary><div>'+esc(s.more)+'</div></details>'+
+  '<div class="bottom"><span class="price">от '+rub(s.price)+'</span><a class="order" href="#order" data-pick="'+s.id+'">Заказать</a></div></article>';
+}).join('');
+$('svcGrid').addEventListener('click',function(e){var a=e.target.closest('[data-pick]');if(a){$('fPest').value=a.dataset.pick;buildWa()}});
+$('priceNote').textContent='Цены из прайса компании, обновлён '+C.pricesUpdated+'. * '+C.freeTrip;
+
+/* доп. услуги и товары */
+function rows(list){return list.map(function(x){return '<div class="row"><div>'+esc(x.t)+(x.n?'<small>'+esc(x.n)+'</small>':'')+'</div><b>'+esc(x.p)+'</b></div>'}).join('')}
+$('extras').innerHTML=rows(C.extras);
+$('goodsList').innerHTML=rows(C.goods);
+$('goodsLead').textContent='Продаём профессиональные средства в розницу и оптом, есть доставка. Оплата: '+C.payment.toLowerCase()+'.';
+
+/* почему мы */
+$('whyGrid').innerHTML=[
+ ['📄','Официально','Работаем с разрешительной документацией. В штате — санитарные врачи с высшим образованием.'],
+ ['🧪','Сертифицированные препараты','Профессиональная химия нового поколения без едкого запаха и следов. Сертификаты на все препараты.'],
+ ['🌫️','Профессиональное оборудование','Генераторы холодного и горячего тумана, генератор озона, активные бактерии для удаления запахов.'],
+ ['🛡️','Договор и гарантия','Заключаем договор. На дезинсекцию от муравьёв и блох — гарантия 1 год.'],
+ ['🤫','Анонимно','Никто из соседей не узнает об обработке: мастер переоденется у вас на объекте.'],
+ ['💬','Бесплатная консультация','Звоните в любое время: подскажем, как подготовиться, и назовём стоимость.']
+].map(function(w){return '<div class="w"><div class="em">'+w[0]+'</div><h3>'+w[1]+'</h3><p>'+w[2]+'</p></div>'}).join('');
+
+/* шаги */
+$('steps').innerHTML=[
+ ['Звонок или заявка','Бесплатная консультация: расскажем, как подготовить помещение, и назовём цену.'],
+ ['Выезд специалиста','По Уфе и по всей Башкирии, ежедневно без выходных.'],
+ ['Обработка','От 30 минут до 1 часа в зависимости от объекта. Участок — от 2 до 4 часов.'],
+ ['Договор и рекомендации','Оставляем договор и подсказываем, как не допустить повторного появления вредителей.']
+].map(function(s){return '<div class="st"><h3>'+s[0]+'</h3><p>'+s[1]+'</p></div>'}).join('');
+
+/* отзывы */
+$('rScore').textContent=C.rating;
+$('rCount').textContent=C.ratingCount+' оценок · '+C.reviewCount+' отзывов в 2ГИС';
+var S=C.reviewStats, total=0, k; for(k in S)total+=S[k];
+$('rvStats').innerHTML=[5,4,3,2,1].map(function(s){return '<div class="bar"><span>'+s+' ★</span><div class="tr"><span style="width:'+(S[s]/total*100)+'%"></span></div><span>'+S[s]+'</span></div>'}).join('')+
+ '<small>Все '+total+' отзывов с оценкой в 2ГИС на 1 ноября 2026</small>';
+var MON=['январ','феврал','март','апрел','ма','июн','июл','август','сентябр','октябр','ноябр','декабр'];
+function dateKey(s){var p=s.split(' '),m=MON.findIndex(function(x){return p[1].indexOf(x)===0&&(x!=='ма'||p[1]==='мая')});return +p[2]*10000+(m+1)*100+ +p[0]}
+C.reviews.sort(function(a,b){return dateKey(b.d)-dateKey(a.d)});
+function stars(n){var s='';for(var i=1;i<=5;i++)s+=i<=n?'★':'<i>★</i>';return s}
+function drawReviews(f){
+ var list=C.reviews.filter(function(r){return f==='all'||(f==='pos'?r.r>=4:r.r<=3)});
+ $('rvGrid').innerHTML=list.map(function(r){
+  return '<div class="rv'+(r.r<=3?' neg':'')+'"><div class="rs">'+stars(r.r)+'</div><p>'+esc(r.x)+'</p><div class="who">'+esc(r.n)+' <small>· '+esc(r.d)+', отзыв в 2ГИС</small></div>'+
+   (r.a?'<div class="ans"><b>Ответ компании · '+esc(r.a.d)+'</b>'+esc(r.a.x)+'</div>':'')+'</div>';
+ }).join('');
+ [].forEach.call($('rvTabs').children,function(b){b.classList.toggle('on',b.dataset.f===f)});
+}
+var nPos=C.reviews.filter(function(r){return r.r>=4}).length, nNeg=C.reviews.length-nPos;
+$('rvTabs').innerHTML='<button type="button" data-f="all">Все ('+C.reviews.length+')</button><button type="button" data-f="pos">Положительные ('+nPos+')</button><button type="button" data-f="neg">Отрицательные ('+nNeg+')</button>';
+$('rvTabs').addEventListener('click',function(e){var b=e.target.closest('[data-f]');if(b)drawReviews(b.dataset.f)});
+drawReviews('all');
+$('allRev').href=C.gis+'/tab/reviews';
+
+/* форма → WhatsApp */
+$('fPest').innerHTML=C.services.map(function(s){return '<option value="'+s.id+'">'+esc(s.title)+' — от '+rub(s.price)+'</option>'}).join('')+'<option value="other">Другое / нужна консультация</option>';
+$('fObj').innerHTML=C.objects.map(function(o){return '<option>'+o+'</option>'}).join('');
+function buildWa(){
+ var s=C.services.find(function(x){return x.id===$('fPest').value});
+ var L=['Здравствуйте! Заявка с сайта.','Услуга: '+(s?s.title:'консультация'),'Объект: '+$('fObj').value];
+ var a=$('fArea').value.trim(),p=$('fPlace').value.trim(),n=$('fName').value.trim(),w=$('fWhen').value.trim(),m=$('fMsg').value.trim();
+ if(a)L.push('Площадь: '+a+' м²'); if(p)L.push('Где: '+p); if(w)L.push('Удобное время: '+w); if(m)L.push('Комментарий: '+m); if(n)L.push('Имя: '+n);
+ return wa(L.join('\n'));
+}
+$('form').addEventListener('submit',function(e){e.preventDefault();window.open(buildWa(),'_blank','noopener')});
+
+/* контакты */
+$('ct').innerHTML=
+ '<div class="ct-item"><span class="em">📞</span><div><small>Телефоны</small>'+C.phones.map(function(p){return '<a href="'+tel(p)+'">'+p+'</a>'}).join('<br>')+'</div></div>'+
+ '<div class="ct-item"><span class="em">🕐</span><div><small>Режим работы</small>'+C.hours+'</div></div>'+
+ '<div class="ct-item"><span class="em">📍</span><div><small>Где работаем</small>'+C.area+'. Выезжаем к вам.</div></div>'+
+ '<div class="ct-item"><span class="em">✉️</span><div><small>Почта</small><a href="mailto:'+C.email+'">'+C.email+'</a></div></div>'+
+ '<div class="ct-item"><span class="em">💳</span><div><small>Оплата</small>'+C.payment+'</div></div>'+
+ '<div class="soc"><a href="'+wa()+'" target="_blank" rel="noopener">WhatsApp</a><a href="'+C.telegram+'" target="_blank" rel="noopener">Telegram</a><a href="'+C.vk+'" target="_blank" rel="noopener">ВКонтакте</a><a href="'+C.gis+'" target="_blank" rel="noopener">2ГИС</a></div>';
+$('ftL').textContent='© '+new Date().getFullYear()+' '+C.legal+' · '+C.brand;
+</script>
+</body>
+</html>
